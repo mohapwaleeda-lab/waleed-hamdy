@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waled Hamdy | Car Instrument Cluster Services</title>
+  <style>
+    :root{--blue:#0d6efd;--blue-dark:#084298;--white:#ffffff;--gray:#f1f5f9;--text:#1e293b;--whatsapp:#25d366}
+    *{margin:0;padding:0;box-sizing:border-box;font-family:"Cairo",Tahoma,Arial,sans-serif}
+    body{background:var(--gray);color:var(--text);line-height:1.9}
+    header{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;text-align:center;padding:60px 20px;position:relative}
+    header h1{font-size:42px;margin-bottom:10px}
+    header p{font-size:18px;opacity:.95}
+    .lang-switch{position:absolute;top:15px;left:15px;display:flex;gap:10px}
+    .lang-switch button{border:none;padding:6px 16px;border-radius:20px;font-weight:700;cursor:pointer}
+    .lang-switch button.active{background:#fff;color:var(--blue-dark)}
+    .lang-switch button:not(.active){background:rgba(255,255,255,.35);color:#fff}
+    nav{background:#fff;position:sticky;top:0;z-index:1000;box-shadow:0 4px 15px rgba(0,0,0,.08)}
+    nav ul{list-style:none;display:flex;justify-content:center;gap:30px;padding:15px;flex-wrap:wrap}
+    nav a{text-decoration:none;font-weight:700;color:var(--blue-dark)}
+    section{max-width:1200px;margin:auto;padding:80px 20px}
+    .section-title{text-align:center;font-size:30px;margin-bottom:40px;color:var(--blue-dark)}
+    .about{background:#fff;padding:40px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+    .card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.06)}
+    .card .content{padding:22px}
+    .card h3{color:var(--blue-dark);margin-bottom:10px}
+    .card p{font-size:14px;color:#555}
+    #sales{background:linear-gradient(135deg,#e8f1ff,#fff);border-radius:25px;padding:50px 20px}
+    .sales-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+    .product-card{background:#fff;padding:15px;border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+    .product-card img{width:100%;border-radius:10px}
+    .price{font-size:18px;font-weight:700;color:var(--blue);margin:10px 0}
+    .btn-whatsapp{display:inline-block;background:var(--whatsapp);color:#fff;padding:10px 15px;border-radius:8px;text-decoration:none;font-weight:700}
+    .whatsapp{position:fixed;bottom:20px;left:20px;background:var(--whatsapp);color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none}
+    footer{background:var(--blue-dark);color:#fff;text-align:center;padding:25px;margin-top:70px}
+    .en{display:none;direction:ltr}
+  </style>
+</head>
+<body><header>
+  <div class="lang-switch">
+    <button id="btn-ar" onclick="setLang('ar')">AR</button>
+    <button id="btn-en" onclick="setLang('en')">EN</button>
+  </div>
+  <h1 class="ar">وليد حمدي</h1>
+  <h1 class="en">Waled Hamdy</h1>
+  <p class="ar">صيانة وإصلاح وبرمجة عدادات السيارات</p>
+  <p class="en">Car Instrument Cluster Repair & Programming</p>
+</header><nav>
+  <ul class="ar">
+    <li><a href="#about">من نحن</a></li>
+    <li><a href="#services">الخدمات</a></li>
+    <li><a href="#gallery">نماذج الأعمال</a></li>
+    <li><a href="#sales">قسم المبيعات</a></li>
+  </ul>
+  <ul class="en">
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Work Samples</a></li>
+    <li><a href="#sales">Sales</a></li>
+  </ul>
+</nav><section id="about">
+  <h2 class="section-title ar">من نحن</h2>
+  <h2 class="section-title en">About Us</h2>
+  <div class="about ar">وليد حمدي متخصص في صيانة وإصلاح وبرمجة عدادات السيارات بمختلف أنواعها.</div>
+  <div class="about en">Waled Hamdy specializes in car instrument cluster repair and programming.</div>
+</section><section id="services">
+  <h2 class="section-title ar">الخدمات</h2>
+  <h2 class="section-title en">Services</h2>  <div class="grid ar">
+    <div class="card"><div class="content"><h3>صيانة عدادات السيارات</h3><p>إصلاح أعطال الشاشة، الإضاءة، المؤشرات، والدوائر الإلكترونية.</p></div></div>
+    <div class="card"><div class="content"><h3>برمجة العدادات</h3><p>برمجة وضبط البيانات بدقة وفق معايير المصنع</p></div></div>
+    <div class="card"><div class="content"><h3>تشخيص الأعطال</h3><p>فحص إلكتروني شامل باستخدام أجهزة متخصصة.</p></div></div>
+    <div class="card"><div class="content"><h3>سوفت وير إيرباج</h3><p>إصلاح وبرمجة سوفت وير الايرباج</p></div></div>
+  </div>  <div class="grid en">
+    <div class="card"><div class="content"><h3>Instrument Cluster Repair</h3><p>Repair of displays, lighting, needles, and electronic circuits.</p></div></div>
+    <div class="card"><div class="content"><h3>Cluster Programming</h3><p>Accurate programming and calibration according to factory standards.</p></div></div>
+    <div class="card"><div class="content"><h3>Fault Diagnostics</h3><p>Comprehensive electronic diagnostics using professional tools.</p></div></div>
+    <div class="card"><div class="content"><h3>Airbag Software Reset</h3><p>Airbag software repair and programming</p></div></div>
+  </div>
+</section><section id="gallery">
+  <h2 class="section-title ar">نماذج الأعمال</h2>
+  <h2 class="section-title en">Work Samples</h2>
+  <div class="grid ar">
+    <div class="card"><img src="" alt="عداد قبل الصيانة"><div class="content"><h3>عداد قبل الصيانة</h3></div></div>
+    <div class="card"><img src="" alt="عداد بعد الصيانة"><div class="content"><h3>عداد بعد الصيانة</h3></div></div>
+  </div>
+  <div class="grid en">
+    <div class="card"><img src="" alt="Before Repair"><div class="content"><h3>Before Repair</h3></div></div>
+    <div class="card"><img src="" alt="After Repair"><div class="content"><h3>After Repair</h3></div></div>
+  </div>
+</section><section id="sales">
+  <h2 class="section-title ar">قسم المبيعات</h2>
+  <h2 class="section-title en">Sales Section</h2>
+  <div class="sales-grid">
+    <div class="product-card">
+      <img src="images/peugeot-3008-2023.jpg" alt="Peugeot 3008 Instrument Cluster">
+      <h3 class="ar">عداد سيارة رقمي</h3>
+      <h3 class="en">Digital Car Instrument Cluster</h3>
+      <p class="price">20,000 EGP</p>
+      <a href="https://wa.me/201222453151" target="_blank" class="btn-whatsapp">WhatsApp</a>
+    </div>
+  </div>
+</section><a href="https://wa.me/201222453151" class="whatsapp">✆</a>
+
+<footer>
+  <p class="ar">© جميع الحقوق محفوظة | وليد حمدي</p>
+  <p class="en">© All rights reserved | Waled Hamdy</p>
+</footer><script>
+function setLang(lang){
+  localStorage.setItem('siteLang',lang);
+  document.querySelectorAll('.ar').forEach(el=>el.style.display=lang==='ar'?'block':'none');
+  document.querySelectorAll('.en').forEach(el=>el.style.display=lang==='en'?'block':'none');
+  document.getElementById('btn-ar').classList.toggle('active',lang==='ar');
+  document.getElementById('btn-en').classList.toggle('active',lang==='en');
+  document.documentElement.dir = lang==='ar' ? 'rtl' : 'ltr';
+}
+setLang(localStorage.getItem('siteLang') || 'ar');
+</script></body>
+</html>
